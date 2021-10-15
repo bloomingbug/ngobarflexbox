@@ -103,6 +103,10 @@ nav ul li a:hover {
 
 /* Ukuran Tablet */
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     nav ul {
         width: 50%;
     }
@@ -110,6 +114,10 @@ nav ul li a:hover {
 
 /* Ukuran Mobile */
 @media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
     nav ul {
         position: absolute;
         top: 0;
